@@ -30,14 +30,9 @@ module Embulk
       end
 
       # TODO
-      # def self.guess(config)
-      #   sample_records = [
-      #     {"example"=>"a", "column"=>1, "value"=>0.1},
-      #     {"example"=>"a", "column"=>2, "value"=>0.2},
-      #   ]
-      #   columns = Guess::SchemaGuess.from_hash_records(sample_records)
-      #   return {"columns" => columns}
-      # end
+      def self.guess(config)
+        return {}
+      end
 
       def init
         @endpoint = task["endpoint"]
