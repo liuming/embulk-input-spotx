@@ -1,7 +1,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "embulk-input-spotx"
-  spec.version       = "0.1.0"
+  spec.version       = "0.2.0"
   spec.authors       = ["Ming Liu"]
   spec.summary       = "Spotx API data input plugin for Embulk"
   spec.description   = "Loads records from Spotx API."
